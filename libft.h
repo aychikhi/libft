@@ -6,7 +6,7 @@
 /*   By: aychikhi <aychikhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 15:15:01 by aychikhi          #+#    #+#             */
-/*   Updated: 2024/11/12 15:37:34 by aychikhi         ###   ########.fr       */
+/*   Updated: 2024/11/14 11:50:11 by aychikhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 void	ft_lstiter(t_list *lst, void (*f)(void *));
-char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 void	ft_lstdelone(t_list *lst, void (*del)(void *));
